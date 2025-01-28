@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/fadizaatari/my-first-react.git",
+  "homepage": "https://fadizaatari.github.io/my-first-react",
   "name": "my-first-app-1",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +9,7 @@
     "predeploy": "npm run build",
     "build": "vite build",
     "deploy": "gh-pages -d src",
-    
-    "lint": "eslint .",
+      "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
