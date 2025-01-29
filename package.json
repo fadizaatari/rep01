@@ -1,7 +1,7 @@
 {
   "homepage": "https://fadizaatari.github.io/my-first-react/",
   "name": "my-first-app-1",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
