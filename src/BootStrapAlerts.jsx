@@ -3,6 +3,7 @@ import Alert from "react-bootstrap/Alert";
 function BootStrapAlert() {
   return (
     <>
+      <Alert variant="danger">TEST</Alert>
       {[
         "primary",
         "secondary",

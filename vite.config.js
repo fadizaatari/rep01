@@ -8,6 +8,7 @@
 
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
 
 // Get the project name from package.json
 import { readFileSync } from "fs";
@@ -21,7 +22,7 @@ const basePath =
 export default defineConfig({
   // base: basePath, // Important: Set the base path
   base: "/my-first-react/",
-  plugins: [react()],
+  plugins: [react(), tailwindcss()],
 
   build: {
     outDir: "dist", // Output directory for the build
