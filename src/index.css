@@ -15,7 +15,7 @@
  rounded;
 }
 @theme {
-  --font-roboto: "Roboto Slab", "sans-serif";
+  --font-roboto: Roboto Slab, "sans-serif";
   --font-doto: Doto, "sans-serif";
   --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
   --ease-snappy: cubic-bezier(0.2, 0, 0, 1); /* ... */
