@@ -21,7 +21,7 @@ const basePath =
 
 export default defineConfig({
   //base: basePath, // Important: Set the base path
-  base: "./https://fadizaatari.github.io/my-first-react/",
+  base: "https://fadizaatari.github.io/my-first-react",
   //base: "/my-first-react",
   //base: "http://localhost:3000/",
   plugins: [react(), tailwindcss()],
