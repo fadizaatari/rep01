@@ -20,9 +20,9 @@ const basePath =
   process.env.NODE_ENV === "production" ? `/${projectName}/` : "/";
 
 export default defineConfig({
-  // base: basePath, // Important: Set the base path
+  base: basePath, // Important: Set the base path
   //base: "./my-first-react/",
-  base: "http://localhost:3000/",
+  //base: "http://localhost:3000/",
   plugins: [react(), tailwindcss()],
 
   build: {
