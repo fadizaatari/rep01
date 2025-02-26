@@ -7,7 +7,7 @@ function Header() {
         <div className="container mx-auto px-4 py-3 font-small ">
           <ul className="flex justify-center space-x-6 text-white text-2xl">
             <List title="About" link="/" />
-            <List title="Let us Play" link="/letusplay" />
+            <List title="Tic Tac Toe" link="/tiktaktoe" />
             <List title="Contact Us" link="/contact-us" />
           </ul>
         </div>

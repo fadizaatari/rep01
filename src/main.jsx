@@ -9,9 +9,11 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import App from "./App.jsx";
-import LetUsPlay from "./components/LetUsPlay.jsx";
+import LetUsPlay from "./components/TicTacToe.jsx";
 import PageNotFound from "./components/PageNotFound.jsx";
 import ContactUs from "./components/ContactUs.jsx";
+import Game from "./components/TicTacToeGame.jsx";
+import Users from "./components/Users.jsx";
 
 const router = createBrowserRouter([
   {
@@ -30,10 +32,10 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Routerr>
       <Routes>
-        <Route path="/letusplay" element={<LetUsPlay />} />
+        <Route path="/tiktaktoe" element={<LetUsPlay />} />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/users/:userId" element={<Users />} />
         <Route path="/" element={<App />} errorElement={<PageNotFound />} />
-
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </Routerr>
