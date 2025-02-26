@@ -9,11 +9,11 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import App from "./App.jsx";
-import LetUsPlay from "./components/TicTacToe.jsx";
+import LetUsPlay from "./pages/TicTacToe.jsx";
 import PageNotFound from "./components/PageNotFound.jsx";
-import ContactUs from "./components/ContactUs.jsx";
+import ContactUs from "./pages/ContactUs.jsx";
 import Game from "./components/TicTacToeGame.jsx";
-import Users from "./components/Users.jsx";
+import Users from "./pages/Users.jsx";
 
 const router = createBrowserRouter([
   {

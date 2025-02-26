@@ -1,5 +1,5 @@
-import Header from "./Header";
-import Game from "./TicTacToeGame";
+import Header from "../components/Header";
+import Game from "../components/TicTacToeGame";
 
 function TicTacToe() {
   return (
