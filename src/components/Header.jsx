@@ -9,6 +9,7 @@ function Header() {
             <List title="About" link="/" />
             <List title="Tic Tac Toe" link="/tiktaktoe" />
             <List title="Contact Us" link="/contact-us" />
+            <List title="Timer" link="/timer" />
           </ul>
         </div>
       </div>

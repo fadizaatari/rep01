@@ -13,6 +13,7 @@ import LetUsPlay from "./pages/TicTacToe.jsx";
 import PageNotFound from "./components/PageNotFound.jsx";
 import ContactUs from "./pages/ContactUs.jsx";
 import Game from "./components/TicTacToeGame.jsx";
+import Timer from "./pages/Timer.jsx";
 import Users from "./pages/Users.jsx";
 
 const router = createBrowserRouter([
@@ -35,6 +36,7 @@ createRoot(document.getElementById("root")).render(
         <Route path="/tiktaktoe" element={<LetUsPlay />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/users/:userId" element={<Users />} />
+        <Route path="/timer" element={<Timer />} />
         <Route path="/" element={<App />} errorElement={<PageNotFound />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
