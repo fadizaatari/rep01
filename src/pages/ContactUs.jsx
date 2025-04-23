@@ -5,7 +5,7 @@ function ContactUs() {
       <Header />
 
       <div className="flex justify-center items-center bg-gradient-to-r from-blue-950 via-blue-800 to-blue-600 h-screen">
-        <p className="text-white  text-7xl text-center font-roboto">
+        <p className="text-emerald-300  text-7xl text-center font-roboto">
           Contact Us version 2
         </p>
       </div>
