@@ -33,6 +33,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <h1>I| am testing</h1>
     <Routerr>
+          <h1>I| am testing</h1>
       <Routes>
         <Route path="/tiktaktoe" element={<LetUsPlay />} />
         <Route path="/contact-us" element={<ContactUs />} />
