@@ -34,7 +34,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     
     <Routerr>
-    
+  <Header/>
       <Routes>
         <Route path="/tiktaktoe" element={<LetUsPlay />} />
         <Route path="/contact-us" element={<ContactUs />} />
