@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { SiAmazongames } from "react-icons/si";
-import Header from "./components/Header";
 
 function App() {
   return (
