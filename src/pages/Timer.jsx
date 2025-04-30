@@ -39,7 +39,6 @@ function Timer() {
 
   return (
     <>
-      <Header />
       <div className="flex flex-row justify-center items-center bg-gradient-to-r from-blue-950 via-blue-800 to-blue-600 h-screen">
         <div className="flex-row bg-amber-300 text-white font-bold text-4xl h-40">
           <div>Time: {formatTime(seconds)}</div>

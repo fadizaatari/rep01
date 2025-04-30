@@ -16,7 +16,6 @@ import ContactUs from "./pages/ContactUs.jsx";
 import Game from "./components/TicTacToeGame.jsx";
 import Timer from "./pages/Timer.jsx";
 import Users from "./pages/Users.jsx";
-import Header from "./components/Header.jsx";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +33,7 @@ const router = createBrowserRouter([
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Routerr>
+      <Header />
       <Routes>
         <Route path="/tiktaktoe" element={<LetUsPlay />} />
         <Route path="/contact-us" element={<ContactUs />} />
