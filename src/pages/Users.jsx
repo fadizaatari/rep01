@@ -1,5 +1,4 @@
 import { useParams } from "react-router-dom";
-import Header from "../components/Header.jsx";
 
 function Users() {
   const user = useParams();
@@ -19,7 +18,6 @@ function Users() {
 
   return (
     <>
-      <Header />
       <div className="flex justify-center items-center bg-gradient-to-r from-blue-950 via-blue-800 to-blue-600 h-screen">
         <p className={classNameColor + " text-7xl text-center font-roboto"}>
           {choice}
