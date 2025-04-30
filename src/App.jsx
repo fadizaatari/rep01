@@ -10,7 +10,7 @@ function App() {
           welcome to
           <span className="font-doto font-bold text-amber-200"> REACT </span>
           using
-          <span className="font-orbitron"> TailwindCSS</span>
+          <span className="font-orbitron"> TailwindCSS*</span>
         </p>
       </div>
     </>
