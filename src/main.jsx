@@ -31,6 +31,7 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
+    <h1>I| am testing</h1>
     <Routerr>
       <Routes>
         <Route path="/tiktaktoe" element={<LetUsPlay />} />
