@@ -1,5 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import Header from "./components/Header";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -31,9 +32,9 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <h1>I| am testing</h1>
+    <Header/>
     <Routerr>
-          <h1>I| am testing</h1>
+    
       <Routes>
         <Route path="/tiktaktoe" element={<LetUsPlay />} />
         <Route path="/contact-us" element={<ContactUs />} />
