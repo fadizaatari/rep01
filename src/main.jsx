@@ -1,13 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Header from "./components/Header";
-import {
-  createBrowserRouter,
-  RouterProvider,
-  HashRouter as Routerr,
-  Routes,
-  Route,
-} from "react-router-dom";
 import "./index.css";
 import App from "./App.jsx";
 import LetUsPlay from "./pages/TicTacToe.jsx";
@@ -17,22 +11,9 @@ import Game from "./components/TicTacToeGame.jsx";
 import Timer from "./pages/Timer.jsx";
 import Users from "./pages/Users.jsx";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    errorElement: <PageNotFound />,
-  },
-  {
-    path: "/letusplay",
-    element: <LetUsPlay />,
-    errorElement: <PageNotFound />,
-  },
-]);
-
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Routerr>
+    <Router>
       <Header />
       <Routes>
         <Route path="/tiktaktoe" element={<LetUsPlay />} />
@@ -42,6 +23,6 @@ createRoot(document.getElementById("root")).render(
         <Route path="/" element={<App />} errorElement={<PageNotFound />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
-    </Routerr>
+    </Router>
   </StrictMode>
 );
